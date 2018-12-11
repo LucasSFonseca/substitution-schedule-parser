@@ -1,0 +1,102 @@
+[
+  {
+    "id": "24203",
+    "id_klasse": "{161}",
+    "datum": "2017-09-29",
+    "fach": "HU",
+    "fach_orig": "",
+    "raum": "01. Kl",
+    "raum_orig": "",
+    "aenderungsgrund": "Vertretung ",
+    "id_person_verantwortlich_orig": "{620}",
+    "id_person_verantwortlich": "{633}",
+    "information": "wir gehen raus!",
+    "zeit_von": "HU1",
+    "zeit_bis": "HU1"
+  },
+  {
+    "id": "24204",
+    "id_klasse": "{161}",
+    "datum": "2017-09-29",
+    "fach": "HU",
+    "fach_orig": "",
+    "raum": "01. Kl",
+    "raum_orig": "",
+    "aenderungsgrund": "Vertretung ",
+    "id_person_verantwortlich_orig": "{620}",
+    "id_person_verantwortlich": "{633}",
+    "information": "Bitte Essen mitbr.",
+    "zeit_von": "HU2",
+    "zeit_bis": "HU2"
+  },
+  {
+    "id": "24206",
+    "id_klasse": "{161}",
+    "datum": "2017-09-29",
+    "fach": "HU",
+    "fach_orig": "",
+    "raum": "01. Kl",
+    "raum_orig": "",
+    "aenderungsgrund": "Fällt Aus ",
+    "id_person_verantwortlich_orig": "{620}",
+    "id_person_verantwortlich": "{NULL}",
+    "information": "",
+    "zeit_von": "2. FS",
+    "zeit_bis": "2. FS"
+  },
+  {
+    "id": "24205",
+    "id_klasse": "{161}",
+    "datum": "2017-09-29",
+    "fach": "Mu",
+    "fach_orig": "",
+    "raum": "",
+    "raum_orig": "",
+    "aenderungsgrund": "Fällt Aus ",
+    "id_person_verantwortlich_orig": "{620}",
+    "id_person_verantwortlich": "{NULL}",
+    "information": "",
+    "zeit_von": "1. FS",
+    "zeit_bis": "1. FS"
+  },
+  {
+    "id": 0,
+    "datum": "2017-09-29",
+    "nachricht": "<b>Abwesend:</b>aAl,bAl"
+  },
+  {
+    "id": "24226",
+    "id_klasse": "{161}",
+    "datum": "2017-10-02",
+    "fach": "CHI",
+    "fach_orig": "",
+    "raum": "01. Kl",
+    "raum_orig": "",
+    "aenderungsgrund": "Vertretung ",
+    "id_person_verantwortlich_orig": "{592}",
+    "id_person_verantwortlich": "{636}",
+    "information": "Ersatz: Japanisch",
+    "zeit_von": "1. FS",
+    "zeit_bis": "1. FS"
+  },
+  {
+    "id": "24231",
+    "id_klasse": "{161,162,163}",
+    "datum": "2017-10-02",
+    "fach": "Astro",
+    "fach_orig": "",
+    "raum": "",
+    "raum_orig": "",
+    "aenderungsgrund": "Vertretung ",
+    "id_person_verantwortlich_orig": "{613}",
+    "id_person_verantwortlich": "{636}",
+    "information": "nur Gruppe A",
+    "zeit_von": "NA 1",
+    "zeit_bis": "NA 1"
+  },
+  {
+    "id": 0,
+    "datum": "2017-10-02",
+    "nachricht": "<b>Abwesend:</b>jAb,aAl,bAl"
+  }
+]
