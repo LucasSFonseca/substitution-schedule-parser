@@ -78,11 +78,4 @@ public class TurboVertretungTest {
 		assertEquals(null, teachers);
 	}
 	
-	@Test
-	public void testGetAllTeachersForNull() throws IOException, JSONException{
-		List<String> teachers = parserForNull.getAllTeachers();
-		assertEquals(null, teachers);
-	}
-	
-
 }

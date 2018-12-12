@@ -15,10 +15,7 @@ import org.junit.Test;
 import me.vertretungsplan.objects.SubstitutionSchedule;
 import me.vertretungsplan.objects.SubstitutionScheduleData;
 
-public class TurboVertretungTesDemo extends BaseDemoTest {
-	private String html1;
-	private String html2;
-	
+public class TurboVertretungTestDemo extends BaseDemoTest {
 	private TurboVertretungParser parser;
 	private SubstitutionScheduleData scheduleData;
 	
@@ -29,7 +26,6 @@ public class TurboVertretungTesDemo extends BaseDemoTest {
 		final JSONArray classes = new JSONArray();
         scheduleData = new SubstitutionScheduleData();
         
-        html1 = readResource("/turbovertretung/turboVertretung1.html");
 		urls.put("https://www.goethe-schule.de/ANBgkqhkiG9w0BAQEFAAOCAQ8goethe-schuleAMIIBCgKCAQEAnkFG3NUV4779/internet1.html");
 		urls.put("https://www.goethe-schule.de/ANBgkqhkiG9w0BAQEFAAOCAQ8goethe-schuleAMIIBCgKCAQEAnkFG3NUV4779/internet2.html");
 		
@@ -52,12 +48,12 @@ public class TurboVertretungTesDemo extends BaseDemoTest {
 	}
 
 	@Test
-	public void demoTest1() throws Exception {
-        List<Document> docs = new ArrayList<>();
-        docs.add(Jsoup.parse(html1));
-        
+	public void demoTest() throws Exception {
         SubstitutionSchedule schedule = parser.getSubstitutionSchedule();
-        System.out.println(schedule.getDays());
+        
+        // Since the input is two HTML files, it means that we have
+        // schedules for two days.
+        assertEquals(2, schedule.getDays().size());
 	}
 	
 	

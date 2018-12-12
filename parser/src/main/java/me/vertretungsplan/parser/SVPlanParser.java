@@ -172,7 +172,7 @@ public class SVPlanParser extends BaseParser {
     private void parseSvPlanDay(SubstitutionSchedule v, Element svp, Document doc) throws IOException, JSONException {
         SubstitutionScheduleDay day = new SubstitutionScheduleDay();
         if ((svp.select(".svp-plandatum-heute, .svp-plandatum-morgen, .Titel").size() > 0 || doc.title()
-                .startsWith("Vertretungsplan fÃ¼r "))) {
+                .startsWith("Vertretungsplan für "))) {
             setDate(svp, doc, day);
             final Elements tables = svp.select(".svp-tabelle, table:has(.Klasse)");
             if (tables.size() > 0) {
