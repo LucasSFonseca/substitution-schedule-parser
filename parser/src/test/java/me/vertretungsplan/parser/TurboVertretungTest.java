@@ -70,7 +70,7 @@ public class TurboVertretungTest {
 		assertEquals(0, classes.size());
 	}
 	
-	// Since the metho getAllTeachers is not implemented,
+	// Since the method getAllTeachers is not implemented,
 	// This test also expects the retunr value to be null.
 	@Test
 	public void testGetAllTeachers() throws IOException, JSONException{

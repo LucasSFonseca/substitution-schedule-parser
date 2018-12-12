@@ -31,12 +31,6 @@ public class UntisInfoHeadlessTest {
 		classes.put("7c");
 		classes.put("8a");
 		classes.put("8b");
-		classes.put("8c");
-		classes.put("8d");
-		classes.put("9c");
-		classes.put("Q1");
-		classes.put("Q2");
-		classes.put("EF");
 		
 		json.put("url", uri);
 		json.put("encoding", "UTF-8");
