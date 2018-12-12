@@ -43,7 +43,7 @@ public class UntisSubstitutionTest {
 	@Test
 	public void test() throws Exception{
 		SubstitutionSchedule schedule = parser.getSubstitutionSchedule();
-		System.out.println(schedule.getDays());
+		assertEquals(7, schedule.getDays());
 	}
 
 }
